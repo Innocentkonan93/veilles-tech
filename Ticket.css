@@ -1,0 +1,610 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #323232;
+}
+h3{
+	background-color: red;
+	border-radius: 15px;
+	color: white;
+}
+
+/*---------Body----------*/
+.tckbody{
+	width: 60%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #EAC, #FFF);
+	text-align: center;
+	padding-top: 50px;
+}
+
+
+/*---------Wrapper----------*/
+
+.tckhead{
+	width: 100%;
+	height: 180px;
+	background: #000;
+	border-top: 7px dashed red;
+	border-bottom: 7px dashed green;
+
+}
+
+.tckhead h1{
+	color: #FFF;
+	font-size: 4em;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: tahoma;
+
+}
+
+.tckhead p{
+	color: #fff;
+	font-size: 0.7rem;
+	font-family: tahoma;
+	
+}
+
+.tckhead a{
+	color: #fff;
+	text-decoration: none;
+}
+/*---------Wrapper----------*/
+
+
+.tckwrapper{
+	height: 100vh;
+	width: 100%;
+	background: #EAC;
+}
+
+.block{
+	height: 450px;
+	border-bottom: 10px dotted rgb(50, 50, 50);
+	background: #EAC;
+	padding: 0% 2% 0% 2%;
+
+}
+
+.circle{
+	height: 400px;
+	width: 400px;
+	border-radius: 80px;
+	margin-top: 2.2%;
+	border: 4px solid #fff;
+	padding-top: 7%;
+	padding-bottom: 5%;
+	box-shadow: -7px 7px 8px #888888;
+	background: transparent;
+
+}
+
+.messages{
+	height: 440px;
+	width: 420px;
+	padding: 10 10;
+
+}
+.messages h3{
+	margin-top: 20px;
+	font-size: 1.6em;
+	padding: 5px 10px;
+}
+.messages p{
+	margin-top: 40px;
+	font-size: 17px;
+	line-height: 30px;
+	text-align: left;
+	font-family: tahoma;
+}
+
+p a{
+	text-decoration: none;
+	color: rgb(20, 90, 20);
+}
+
+iframe{
+	width: 360;
+	height: 270
+}
+
+
+/*img{
+	
+	width: 350;
+	height: 100%;
+}*/
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*---------foot----------*/
+.tckfooter{
+	width: 100%;
+	height: 200px;
+	background: #EAC;
+}
+
+.tckfooter p{
+	padding-top: 20px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+
+.tckfooter a{
+	margin-left: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+.contacts{
+	padding-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	background: rgba(10, 10, 10);
+	height: 60px;
+	width: 100%;
+}
+
+
+
+div ul{
+	display: inline;
+	text-align: center;
+}
+
+div ul li{
+
+	display: inline;
+}
+
+div ul li a{
+	font-size: 40px;
+	padding-left: 30px;
+	margin-top: 10px;
+}
+
+.contacts a{
+	color: #bdc3c7;
+}
+.contacts a:hover{
+	color: #fff;
+}
+span{
+	font-weight: bold;
+}
+
+
+/*-----------Profile---------*/
+
+
+
+.myprofile{
+	width: 245px;
+	height: 600px;
+	position: fixed;
+	margin-left: 20px;
+	top: 50px;
+	left: 0px;
+	background: linear-gradient(rgb(241, 255, 207), rgb(255,255, 255));
+	font-family: tahoma;
+}
+
+.myprofile i{
+	font-size: 40px;
+	margin-left: 100px;
+	padding: 10px 0px;
+	transition: .7s;
+}
+
+.profil-content{
+	height: 100%;
+	width: 100%;
+	border-top: 1px solid #ede;
+}
+
+.presentation{
+	padding: 20 15px;
+}
+
+.maphoto{
+	margin-left: 20px;
+}
+
+.checkbtn{
+	font-size: 40px;
+	color: #fff;
+	margin-left: 123px;
+	cursor: pointer;
+	position: fixed;
+	z-index: 999;
+
+}
+
+.myprofile{
+	top: -600px;
+	transition: .7s;
+
+}
+
+
+#check{
+	display: none;
+}
+
+#check:checked ~ .myprofile{
+	top: 50px;
+	transition: .7s;
+
+}
+
+
+
+
+@media (max-width: 1420px){
+
+.tckbody{
+	width: 900px;
+	
+}
+
+.circle{
+	height: 330px;
+	width: 330px;
+	border-radius: 80px;
+	margin-top: 9%;
+	border: 4px solid #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-shadow: -7px 7px 8px #888888;
+	background: transparent;
+
+}
+
+embed{
+	margin-top: 15px;
+	height: 210px;
+	width: 300px;
+}
+
+.messages{
+
+	margin-top: 7%;
+	height: 320px;
+	width: 340px;
+	padding: 10 10;
+}
+
+.messages h3{
+	margin-top: 10px;
+	font-size: 1.6em;
+	padding: 5px 10px;
+}
+.messages p{
+	margin-top: 20px;
+	font-size: 17px;
+	line-height: 22px;
+	text-align: left;
+	font-family: tahoma;
+}
+
+.block{
+	height: 450px;
+	border-bottom: 10px dotted rgb(50, 50, 50);
+	background: #EAC;
+
+
+}
+
+}
+
+@media (max-width: 1160px){
+.tckbody{
+	width: 700px;
+	
+}
+
+.circleelmnt img{
+	margin-top: 18px;
+	width: 320;
+	height: 230;
+}
+
+
+}
+
+@media (max-width: 980px){
+
+
+.tckhead h1{
+	color: #FFF;
+	font-size: 3em;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: tahoma;
+
+}
+
+
+.tckbody{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #EAC, #FFF);
+	text-align: center;
+	padding-top: 50px;
+}
+
+.circle{
+	height: 370px;
+	width: 380px;
+	border-radius: 80px;
+	margin-top: 3.5%;
+	border: 4px solid #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-shadow: -7px 7px 8px #888888;
+	background: transparent;
+
+}
+
+
+.messages{
+
+	margin-top: 7%;
+	height: 340px;
+	width: 340px;
+	padding: 10 10;
+}
+
+
+.messages h3{
+	margin-top: 15px;
+	font-size: 1.3em;
+	padding: 5px 10px;
+}
+.messages p{
+	margin-top: 40px;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: left;
+	font-family: tahoma;
+}
+
+
+.circleelmnt img{
+	margin-top: 18px;
+	width: 320;
+	height: 230;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: #222;
+	margin-left: 25px;
+	position: absolute;
+	margin-top: 10px;
+	cursor: pointer;
+	z-index: 999;
+
+}
+
+
+.myprofile{
+	margin-left: 0px;
+}
+
+#check:checked ~ .myprofile{
+	top: 50px;
+	transition: .7s;
+
+}
+
+
+
+}
+
+
+@media (max-width: 600px){
+
+
+.tckhead h1{
+	color: #FFF;
+	font-size: 3em;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: tahoma;
+
+}
+
+
+.tckbody{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to bottom, #EAC, #FFF);
+	text-align: center;
+	padding-top: 50px;
+}
+
+.block{
+	height: 450px;
+	border-bottom: 10px dotted rgb(50, 50, 50);
+	background: #EAC;
+
+
+}
+
+.circle{
+	height: 300px;
+	width: 280px;
+	border-radius: 80px;
+	margin-top: 13%;
+	border: 4px solid #fff;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	box-shadow: -7px 7px 8px #888888;
+	background: transparent;
+
+}
+
+
+.messages{
+
+	margin-top: 7%;
+	height: 320px;
+	width: 290px;
+	padding: 10 10;
+}
+
+
+.messages h3{
+	margin-top: 15px;
+	font-size: 1.3em;
+	padding: 5px 10px;
+}
+.messages p{
+	margin-top: 40px;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: left;
+	font-family: tahoma;
+}
+
+
+.circleelmnt img{
+	margin-top: 18px;
+	width: 260;
+	height: 200;
+}
+
+
+iframe{
+	margin-top: 5px;
+	height: 190px;
+	width: 260px;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: #222;
+	margin-left: 25px;
+	position: absolute;
+	margin-top: 10px;
+	cursor: pointer;
+	z-index: 999;
+
+}
+
+
+.myprofile{
+	margin-left: 0px;
+}
+
+#check:checked ~ .myprofile{
+	top: 50px;
+	transition: .7s;
+
+}
+
+
+@media (max-width: 420px){
+	.tckbody{
+		width: 100%
+	}
+
+	
+	.tckwrapper{
+		width: 100%;
+	}
+	
+	.tckhead{
+	height: 150px;
+	}
+
+	
+	.tckhead a{
+		text-decoration: none;
+		color: #FFF;
+	}
+
+	.tckhead {
+		font-size: 13px;
+	}
+	
+	
+	
+	.block{
+		display: inline-block;
+		width: 100vw;
+		height: 700px;
+	}
+	
+
+	.circle{
+		width: 350px;
+		margin: 20 auto;
+		float: none;
+	}
+	
+	.messages{
+		margin: 0;
+		float: none;
+		width: 350px;
+	}
+	
+	
+	iframe{
+		margin-top: 30;
+		width: 325px;
+	}
+	
+	.myprofile{
+		width: 200px;
+		height: 500px;
+		border-radius: 15px;
+		box-sizing: -5px -5px 25px #888888;
+	}
+	
+	.myprofile p{
+		font-size: 12Ppx;
+	}
+	
+	.myprofile img{
+		width: 120px;
+		margin-left: 20px;
+	}
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
